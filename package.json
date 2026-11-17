@@ -1,0 +1,19 @@
+{
+  "name": "crypt-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Demo patient for CRYPT (Kiroween 2026): a tiny app on deliberately outdated dependencies. CRYPT opens real fix PRs here.",
+  "dependencies": {
+    "handlebars": "4.0.11",
+    "jquery": "3.4.1",
+    "lodash": "4.17.15",
+    "mkdirp": "0.5.1",
+    "node-fetch": "2.6.0"
+  },
+  "devDependencies": {
+    "ms": "2.1.3"
+  },
+  "scripts": {
+    "test": "node --test test/"
+  }
+}
