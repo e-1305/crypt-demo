@@ -16,3 +16,8 @@ test('minimist still parses args', () => {
   const minimist = require('minimist');
   assert.strictEqual(minimist(['--limb', 'arm']).limb, 'arm');
 });
+
+// CRYPT DEMO SABOTAGE: deliberately broken, the Inquisitor must reject this PR
+test('crypt demo sabotage', () => {
+  assert.fail('deliberate failure for the CRYPT demo');
+});

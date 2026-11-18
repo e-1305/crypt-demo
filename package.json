@@ -5,7 +5,7 @@
   "description": "Demo patient for CRYPT (Kiroween 2026): a tiny app on deliberately outdated dependencies. CRYPT opens real fix PRs here.",
   "dependencies": {
     "handlebars": "4.0.11",
-    "jquery": "3.4.1",
+    "jquery": "3.5.0",
     "lodash": "4.18.1",
     "mkdirp": "0.5.1",
     "node-fetch": "2.6.0"
